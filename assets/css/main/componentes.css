@@ -1,0 +1,177 @@
+/* Fontes Header */
+.f-logo {
+  color: #232324;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.f-decoracao {
+  color: #232324;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.f-preco {
+  color: #232324;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.title-preco {
+  color: #232324;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bold {
+  color: #232324;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.f-botao-preto {
+  color: #232324;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  padding: 8px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #232324;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.botao-branco {
+  border: 1px solid #f9f9f9 !important;
+  color: #f9f9f9 !important;
+}
+
+/* Fontes Main */
+
+.f-title-preto {
+  color: #232324;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.f-title-branco {
+  color: #f9f9f9;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 300px !important;
+}
+
+.f-decoracao-title-preto {
+  color: #232324;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: "Kumbh Sans", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #232324;
+  display: inline-flex;
+  padding: 5px 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.decoracao-branco {
+  color: #f9f9f9 !important;
+  border: 1px solid #f9f9f9 !important;
+}
+
+.f-desc-preto {
+  color: #232324;
+  font-family: "Kumbh Sans", sans-serif;
+  width: 391px;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.desc-branco {
+  color: #f9f9f9 !important;
+  font-weight: 300 !important;
+}
+.f-qualidade-preto {
+  color: #232324;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.f-qualidade-desc-preto {
+  color: #232324;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* Portfolio */
+.f-projeto {
+  color: #f9f9f9 !important;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+@media (max-width: 560px) {
+  .f-botao-preto {
+    font-size: 0.75rem;
+  }
+  .f-title-preto {
+    font-size: 2.5rem;
+    width: 330px !important;
+  }
+  .f-title-branco {
+    font-size: 2.5rem;
+  }
+
+  .f-decoracao-title-preto {
+    font-size: 0.5rem;
+  }
+  .f-desc-preto {
+    font-size: 1rem;
+    width: 310px !important;
+  }
+  .f-preco {
+    font-size: 1rem;
+  }
+  .title-preco {
+    font-size: 1.5rem;
+  }
+}
